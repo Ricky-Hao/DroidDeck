@@ -1,0 +1,14 @@
+{
+  "name": "DroidDeck Android (Coder)",
+  "build": {
+    "dockerfile": "Dockerfile",
+    "context": "."
+  },
+  "containerUser": "vscode",
+  "remoteUser": "vscode",
+  "updateRemoteUserUID": false,
+  "workspaceFolder": "/workspaces/DroidDeck",
+  "containerEnv": {
+    "GRADLE_USER_HOME": "/workspaces/DroidDeck/.gradle/user-home"
+  }
+}
